@@ -5,7 +5,7 @@ import charts
 
 def run():
 
-  data = read_csv.read_csv('./app/data.csv')
+  data = read_csv.read_csv('data.csv')
   data=list(filter(lambda x:x['Continent']=='South America',data))
   countries =list(map(lambda x: x['Country/Territory'],data))
   percentages=list(map(lambda x:x['World Population Percentage'],data))
