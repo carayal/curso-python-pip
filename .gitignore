@@ -179,7 +179,8 @@ venv/
 ENV/
 env.bak/
 venv.bak/
-
+app/app-env/
+game/game-env/
 # Spyder project settings
 .spyderproject
 .spyproject
